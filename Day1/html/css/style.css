@@ -1,0 +1,64 @@
+body{
+  font-family: monospace;
+  color: #333232;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.p10{
+  padding: 10px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  margin: 4rem;
+}
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* .bold600{
+  font-weight: bold;
+	color: rgb(51, 51, 51);
+
+} */
+
+.heading--bold{
+  flex:1;
+	font-weight: 600;
+	color: rgb(51, 51, 51);
+}
+.heading--breadcrumb{
+  flex:5;
+}
+
+.heading{
+  border-bottom: 1px solid #e2dbdb;
+}
+
+.section--payment{
+  flex: 2;
+}
+
+.section--cart{
+  flex: 1;
+  background-color: #e2dbdb80;
+}
+
+.heading--breadcrumb span::before{
+  content: 'Payment Method';
+  font-weight: bold;
+	color: rgb(51, 51, 51);
+}

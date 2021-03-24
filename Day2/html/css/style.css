@@ -1,0 +1,177 @@
+html,body{
+  font-family: monospace;
+  color: #333232;
+  background-image: url('../images/background.jpg');
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.p10{
+  padding: 10px;
+}
+
+.m5{
+  margin: 5px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  margin: 4rem;
+}
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.heading--bold{
+  flex:1;
+	font-weight: 600;
+	color: rgb(51, 51, 51);
+}
+.heading--breadcrumb{
+  flex:5;
+}
+
+.heading--border{
+  border-bottom: 1px solid #e2dbdb;
+}
+
+.section__payment{
+  flex: 2;
+}
+
+.section__cart{
+  flex: 1;
+  background-color: #e2dbdb49;
+}
+
+.heading--breadcrumb span::before{
+  content: 'Payment Method';
+  font-weight: bold;
+	color: rgb(51, 51, 51);
+}
+
+.payment--border{
+  border-bottom: 1px solid #e2dbdb;
+  font-weight: bold;
+  color: gray;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.m-20{
+  margin-top: 20px;
+}
+
+.payment__images{
+  display: flex;
+  flex-direction: row;
+}
+
+.image{
+  flex: 1;
+  padding: 20px;
+  margin: 5px;
+}
+
+.image:hover{
+  background: #e2dbdb8e;
+}
+
+.image__container{
+  padding: 5px;
+  border: 1px solid #e2dbdb;
+}
+
+.image__text{
+  font-size: 8px;
+  width: 100px;
+}
+.payment__card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.payment__card__input{
+  width: 350px;
+  border: 1px solid rgba(156, 151, 151, 0.795);
+  border-radius:5px;
+}
+.payment__card__input--sm{
+  width: 150px;
+  border: 1px solid rgba(156, 151, 151, 0.795);
+  border-radius:5px;
+}
+
+.btn{
+  background-color: rgba(51, 216, 100, 0.918);
+}
+
+.cart__block{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e2dbdb;
+}
+.cart__block--sum{
+  display: flex;
+  flex-direction: row;
+  
+  position: relative;
+  top: 80px;
+}
+
+.borderT{
+  border-top: 1px solid #e2dbdb;
+}
+
+.cart--left{
+  flex: 5;
+}
+
+.cart--right{
+  flex: 1;
+}
+
+.cart--text{
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+.product{
+  padding: 5px;
+  margin: 5px 5px 10px 5px;
+  background: #e2dbdb8e;
+  width: 40px;
+  display: inline-flex;
+}
+.product__heading{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.product__text{
+  font-size: 8px;
+}
+.product__text__block{
+  display: inline-block;
+  line-height: 1.8;
+}
